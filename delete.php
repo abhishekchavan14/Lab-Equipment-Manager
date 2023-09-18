@@ -64,11 +64,11 @@
         <!-- The form -->
         <form class="example" action="" method="post">
             <input type="text" placeholder="Serial Number To Delete" name="serial" required>
-            <button type="submit" name='insert'>Delete</button>
+            <button type="submit" name='delete'>Delete</button>
             <button onclick="window.location.href='dash.php'">Back</button>
         </form><br>
         <?php
-        if (isset($_POST['insert'])) {
+        if (isset($_POST['delete'])) {
             require_once "config.php";
             $serialNo = $_POST['serial'];
             $sql_delete = "DELETE FROM comp where serial_sno='$serialNo';";

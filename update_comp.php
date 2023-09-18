@@ -130,9 +130,8 @@
     </ul>
     <center>
     <script src="https://kit.fontawesome.com/fbf3c1b0e1.js" crossorigin="anonymous"></script>
-
-        
-        <!-- The form -->
+    </body>
+    
 <?php
     require_once "config.php";
     $serial=$_POST['serial'];
@@ -145,9 +144,7 @@
         include "form.php";
     }
 ?>
-    <button name='back' onclick="window.location.href='dash.php'" >Back</button>
-    </center>
-</body>
+    
 <?php
     
     if(isset($_POST['update'])){

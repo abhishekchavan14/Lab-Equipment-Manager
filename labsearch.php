@@ -232,29 +232,11 @@
                       <th>Quantity</th> 
                   </tr>";
 
-                // $lab_ivoice_link = mysqli_query($db, "select img_path from invoice b join image_table a on b.img_id=a.img_id where lab_name = '$lab_name';");
-
-                // if (mysqli_num_rows($lab_ivoice_link) > 0) {
-                //     echo "
-                //     <button id=\"myBtn\" class = 'modal-button' style='width: 10%; padding: 10px; background: black;
-                //     color: white;
-                //     font-size: 17px;
-                //     border: 1px ;
-                //     border-radius: 5px;
-                //     border-left: none;'>View Invoice</button><br><br>";
-                // }
-
                 echo "
                     <div id=\"myModal\" class=\"modal\">
                         <div class=\"modal-content\">
                             <span class=\"close\">&times;</span>";
 
-                // while(($link = mysqli_fetch_assoc($lab_ivoice_link))) {
-                //     echo "
-                //         <img src = '" . $link['img_path'] . "' style='object-fit:contain;max-width:100%;width:1000px;'/><br>
-                //         <a href = '" . $link['img_path'] . "' download>Download Invoice</a><br/><br/>
-                //     ";
-                // }
 
                 echo "
                         </div

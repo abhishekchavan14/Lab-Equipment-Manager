@@ -14,5 +14,5 @@
                 <option value="notworking">Not Working</option>
             </select><br><br>
                <button type="submit" name='update'>Update</button>
-
         </form><br>
+    <button name='back' onclick="window.location.href='dash.php'" >Back</button>
